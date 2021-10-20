@@ -17,15 +17,15 @@ https://jugit.fz-juelich.de/mlz/libcerf/-/blob/master/README.md
 
 In the following, "Complex" stands for .Net System.Numerics [Complex](https://docs.microsoft.com/en-us/dotnet/api/system.numerics.complex?view=net-5.0) structure;
 
-* Complex [cerf](https://apps.jcns.fz-juelich.de/man/cerf.html) (Complex): The complex error function erf(z).
-* Complex [cerfc](https://apps.jcns.fz-juelich.de/man/cerf.html) (Complex): The complex complementary error function erfc(z) = 1 - erf(z).
+* Complex [cerf](https://apps.jcns.fz-juelich.de/man/cerf.html) (Complex z): The complex error function erf(z).
+* Complex [cerfc](https://apps.jcns.fz-juelich.de/man/cerf.html) (Complex z): The complex complementary error function erfc(z) = 1 - erf(z).
 * Complex [cerfcx](https://apps.jcns.fz-juelich.de/man/erfcx.html) (Complex z): The underflow-compensating function erfcx(z) = exp(z^2) erfc(z).
 * double [erfcx](https://apps.jcns.fz-juelich.de/man/erfcx.html) (double x): The same for real x.
 * Complex [cerfi](https://apps.jcns.fz-juelich.de/man/erfi.html) (Complex z): The imaginary error function erfi(z) = -i erf(iz).
 * double [erfi](https://apps.jcns.fz-juelich.de/man/erfi.html) (double x): The same for real x.
 * Complex [w_of_z](https://apps.jcns.fz-juelich.de/man/w_of_z.html) (Complex z): Faddeeva's scaled Complex error function w(z) = exp(-z^2) erfc(-iz).
 * double [im_w_of_x](https://apps.jcns.fz-juelich.de/man/w_of_z.html) (double x): The same for real x, returning the purely imaginary result as a real number.
-* Complex [cdawson](https://apps.jcns.fz-juelich.de/man/dawson.html) (complex z): Dawson's integral D(z) = sqrt(pi)/2 * exp(-z^2) * erfi(z).
+* Complex [cdawson](https://apps.jcns.fz-juelich.de/man/dawson.html) (Complex z): Dawson's integral D(z) = sqrt(pi)/2 * exp(-z^2) * erfi(z).
 * double [dawson](https://apps.jcns.fz-juelich.de/man/dawson.html) (double x): The same for real x.
 * double [voigt](https://apps.jcns.fz-juelich.de/man/voigt.html) (double x, double sigma, double gamma): The convolution of a Gaussian and a Lorentzian.
 * double [voigt_hwhm](https://apps.jcns.fz-juelich.de/man/voigt_hwhm.html) (double sigma, double gamma): The half width at half maximum of the Voigt profile.
