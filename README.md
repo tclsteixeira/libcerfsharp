@@ -6,7 +6,6 @@ This is the home page of **Libcerfsharp**, a C# port from C library [libcerf](ht
  
 
 **Author Libcerfsharp:**
-<i>Tiago C. Teixeira</i>
 <i>Copyright (c) 2021 Tiago C. Teixeira</i>
 
 **Link to original C library 'libcerf'**
