@@ -1,5 +1,10 @@
-﻿This project is licensed under the MIT License. [Learn more](https://choosealicense.com/licenses/mit/) 
+﻿This project is licensed under the MIT License.
+https://choosealicense.com/licenses/mit/
 
+C# port (Libcerfsharp)
+Copyright (c) 2021 Tiago C. Teixeira 
+
+Original C library (libcerf.c)
 Copyright (c) 2012 Massachusetts Institute of Technology  
 Copyright (c) 2013 Forschungszentrum Jülich GmbH
 
@@ -22,4 +27,3 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION  
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
  
-> Written with [StackEdit](https://stackedit.io/).
